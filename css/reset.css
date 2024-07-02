@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+:root {
+  --primaryColor: black;
+  --firstColor: green;
+  --secondaryColor: red;
+  --whiteColor: white;
+}
+
+@media (min-width: 1560px) {
+  .container {
+    width: 1200px;
+  }
+}

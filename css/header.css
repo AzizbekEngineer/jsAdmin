@@ -1,0 +1,81 @@
+nav {
+  padding: 15px 0;
+}
+.nav__humburger-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 26px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.nav__humburger-btn span {
+  width: 100%;
+  height: 3px;
+  background: black;
+  color: black;
+  border-radius: 5px;
+}
+
+.nav__avatar {
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav__avatar-item {
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__avatar-name {
+  color: var(--primaryColor);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.nav__avatar-item img {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+}
+
+.hero__title {
+  color: var(--primaryColor);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.hero__btns {
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  width: 75px;
+  height: 35px;
+}
+
+.add__btn {
+  background: var(--firstColor);
+  color: var(--whiteColor);
+  text-align: center;
+  border: 1px solid var(--firstColor);
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.add__btn:hover {
+  color: var(--firstColor);
+  background: var(--whiteColor);
+}

@@ -1,0 +1,86 @@
+.overwiev {
+  padding: 20px 0;
+  width: calc(100% - 300px);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid transparent;
+}
+
+th,
+td {
+  padding: 25px;
+}
+
+.first_row {
+  opacity: 1;
+  background: black;
+  color: white;
+  font-size: 18px;
+}
+
+tr:nth-child(even) {
+  background: #eef2f5;
+}
+
+.table__avatar-item {
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.table__avatar {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.table__avatar img {
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.firstColor {
+  color: var(--firstColor);
+}
+
+.redColor {
+  color: var(--secondaryColor);
+}
+
+.ticket_page {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 24px;
+  color: black;
+}
+.category {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  scrollbar-width: none;
+  gap: 15px;
+}
+.category p {
+  white-space: nowrap;
+  padding: 5px 10px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overwiev</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main class="main">
+        <div class="sidebar">
+            <div class="sidebar__logo">
+                <img src="./images/dash.svg" alt="">
+                <h3>Dashboard</h3>
+            </div>
+            <ul class="sidebar__list">
+                <li class="sidebar__item">
+                    <i class="fa-solid fa-ticket"></i>
+                    <span>Tickets</span>
+                </li>
+                <li class="sidebar__item">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <span>Ideas</span>
+                </li>
+                <li class="sidebar__item">
+                    <i class="fa-solid fa-address-card"></i>
+                    <span>contact</span>
+                </li>
+                <li class="sidebar__item">
+                    <i class="fa-solid fa-user-tie"></i>
+                    <span>Agents</span>
+                </li>
+                <li class="sidebar__item">
+                    <i class="fa-solid fa-newspaper"></i>
+                    <span>Articles</span>
+                </li>
+            </ul>
+            <div class="sidebar__bottom">
+                <div class="sidebar__line">
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <span>Change mode</span>
+                </div>
+                <div class="sidebar__line">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span>Logout</span>
+                </div>
+            </div>
+        </div>
+        <section class="overwiev">
+            <header>
+                <nav>
+                    <div class="container df">
+                        <div class="nav__humburger-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="nav__avatar df">
+                            <p class="nav__avatar-name">Jones Ferdinand</p>
+                            <div class="nav__avatar-item">
+                                <img src="images/header_avatar.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="hero">
+                    <div class="container df">
+                        <h2 class="hero__title">Overview</h2>
+                        <div class="hero__btns df">
+                            <button class="btn more__btn"><img src="images/dots_btn.svg" alt=""></button>
+                            <button class="btn add__btn">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <div class="category"></div>
+                <table>
+                    <thead>
+                        <tr class="first_row">
+                            <td>Owner</td>
+                            <td>Category</td>
+                            <td>Price</td>
+                            <td>Stock</td>
+                            <td>Create Data</td>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody">
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+
+</html>
